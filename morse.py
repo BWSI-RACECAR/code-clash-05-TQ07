@@ -121,7 +121,7 @@ class Solution:
         for char in message:
             # If the character is a space, add two spaces to the encrypted message
             if char == " ":
-                encrypted_message += "  "
+                encrypted_message += ""
             # Otherwise, add the Morse code for the character followed by a space
             else:
                 encrypted_message += MORSE_CODE_DICT[char] + " "
